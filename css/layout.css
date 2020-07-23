@@ -252,7 +252,8 @@ header {
 .slide {
     background-image: url('../images/background.jpg');
     position: relative;
-    height: 500px;
+    height: 700px;
+    background-size: cover;
 }
 
 .slide__wrapper {
@@ -270,7 +271,7 @@ header {
 
 .slide__inner {
     margin: 0 auto;
-    width: 700px;
+    width: 550px;
     text-align: center;
 }
 
@@ -428,13 +429,396 @@ header {
 /* end css .content-container */
 
 
+/* BEGIN WELAND CSS */
+
+.slide-weland {
+    z-index: -1;
+    background: url(../images/slide-bg-welend.jpg) no-repeat;
+    position: relative;
+    height: 550px;
+    background-size: cover;
+}
+
+.slide-sub-title {
+    font-weight: unset;
+    font-size: 12px;
+}
+
+.slide__weland__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 100%;
+}
+
+.slide__weland__title {
+    font-weight: unset;
+}
+
+.btn-weland-more {
+    color: #1d9c94;
+    border: 2px solid #29cec4;
+    border-radius: unset;
+    padding: 4px 25px 4px 25px;
+}
+
+.btn-weland-more:hover {
+    background-color: #29cec4;
+    border: 2px solid #29cec4;
+}
+
+
+/* begin box info */
+
+.info-text {
+    margin-top: -20px;
+    z-index: 1;
+    padding: 20px 60px 20px 60px;
+}
+
+
+/* end box info */
+
+
+/* begin article */
+
+.listgroup__title {
+    font-weight: unset;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.underlined {
+    width: 40px;
+    height: 1px;
+    background: #404040;
+    margin-bottom: 25px;
+}
+
+.article__list {
+    margin-bottom: 10px;
+}
+
+.check__circle__icon {
+    margin-right: 15px;
+    margin-bottom: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.introdution_list {
+    margin-left: 50px;
+}
+
+
+/* end article */
+
+
+/* begin Advantages */
+
+.underlined_white {
+    width: 40px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-bottom: 25px;
+}
+
+.section__advantages {
+    padding: 20px;
+    background-color: #151515;
+}
+
+.section__advantages .card {
+    background-color: #151515;
+    border: unset;
+}
+
+.section__advantages .card-body {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    color: #ffffff;
+}
+
+.section__advantages .card-img {
+    padding: 3px;
+}
+
+.section__advantages .text-muted {
+    color: #ffffff;
+}
+
+.section__advantages .card-title {
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-weight: unset;
+}
+
+.section__advantages__title {
+    margin-top: 30px;
+    font-weight: unset;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* end Advantages */
+
+
+/* begin intro tech css */
+
+.section__technology {
+    margin-top: 30px;
+}
+
+.article__technology {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+/* end intro tech css */
+
+
+/* end WELAND CSS */
+
+
+/* BEGIN ECOSYSTEM CSS */
+
+.slide__ecosystem {
+    z-index: -1;
+    background: url(../images/ecosystem-slide-background.jpg) no-repeat;
+    position: relative;
+    height: 500px;
+    background-size: cover;
+}
+
+.section__article {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section__article h4 {
+    font-size: 25pt;
+    margin-top: 10px;
+    color: #121a30;
+}
+
+.section__article p {
+    color: #121a30;
+}
+
+.section__article .card {
+    border: unset;
+}
+
+.section__article .card-body {
+    padding-top: 0px;
+}
+
+.section__article .card-title {
+    font-weight: unset;
+    color: #121a30;
+    margin-bottom: 0px;
+}
+
+.section__article .card-img {
+    padding: 5px;
+}
+
+.section__article .text-muted {
+    color: #121a30;
+}
+
+.section__article .underlined {
+    background-color: #121a30;
+    height: 2px;
+    width: 50px;
+}
+
+.section__thumnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* end bfinex pay */
+
+
+/* begin bfine wallet css */
+
+#bfineWalletSection {
+    background-color: #f5f5f5;
+}
+
+#bfineWalletSection .card {
+    background-color: #f5f5f5;
+}
+
+
+/* end bfine wallet css */
+
+
+/* END ECOSYSTEM CSS */
+
+
+/* BEGIN fund css */
+
+.slide__fund {
+    z-index: -1;
+    background: url(../images/bfine-fund-background.jpg) no-repeat;
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.center__wraper {
+    padding: 0px 50px 0px 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#briSection p {
+    text-align: justify;
+}
+
+#briSection .section__thumnail {
+    padding: 0px 100px 0px 100px;
+}
+
+#tokenLlocationSection {
+    background-color: #f5f5f5;
+}
+
+#tokenLlocationSection .section__thumnail {
+    padding: 0px 50px 0px 50px;
+}
+
+#sectionTKDistribution {
+    padding: 50px;
+    background-color: white;
+}
+
+.d__title {
+    color: #1a1b1b;
+    text-align: center;
+    font-weight: unset;
+}
+
+#sectionTKDistribution .d_underlined {
+    background-color: #1a1b1b;
+    margin-left: auto;
+    width: 50px;
+    height: 2px;
+    margin-right: auto;
+}
+
+#sectionTKDistribution .gr__round {
+    padding-top: 50px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gr__title hr {
+    width: 50px;
+    margin: 0 auto;
+    border-top: 2px solid #1a1b1b;
+}
+
+#grRound article h5 {
+    font-size: 20px;
+    font-weight: unset;
+    margin-bottom: 5px;
+}
+
+#grRound article p {
+    font-size: 20px;
+}
+
+#grRound article:first-child {
+    background: url(../images/round01.png) no-repeat;
+}
+
+#grRound article:nth-child(2) {
+    background: url(../images/round02.png) no-repeat;
+}
+
+#grRound article:nth-child(3) {
+    background: url(../images/round03.png) no-repeat;
+}
+
+#grRound article:last-child {
+    background: url(../images/round04.png) no-repeat;
+}
+
+#grRound article {
+    margin-right: -23px;
+    padding: 75px 0px 40px;
+    background-size: 100%!important;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#sectionUnite {
+    padding: 50px 0 50px;
+    background-color: #f5f5f5;
+}
+
+#sectionUnite h6 {
+    padding: 25px 150px 0px 150px;
+    font-weight: unset;
+    font-size: 14px;
+    text-align: center;
+}
+
+#sectionUnite ul {
+    padding: 0px 70px 0px 70px;
+}
+
+#sectionUnite .row {
+    margin: 30px 0px 0px 0px;
+}
+
+#sectionUnite .gr__title {
+    display: grid;
+}
+
+#btnInvite {
+    background-color: #00d4be;
+    border-radius: unset;
+    border: 1px solid #00d4be;
+    padding: 6px 50px 6px 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* END fund css */
+
+
 /* ================= FOOTER ================= */
 
 footer section {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    padding-top: 40px;
+    background-size: cover;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
     background-image: url('../images/footer.jpg');
 }
 
